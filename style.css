@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#back{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 12%;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 70px;
+    border-bottom   : 1px solid #dadada;
+}
+
+#links a{
+    text-decoration: none;
+    color: black;
+    margin-left: 70px;
+    display: inline-block;
+}
+
+#links a:nth-child(1){
+    color: red;
+    margin-left: 0px;
+}
+
+#righttop a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+
+#righttop i{
+    font-size: 16px;
+}
+
+#red{
+    color: rgb(202, 16, 16);
+}
+
+
+
+#credits{
+    width: 100%;
+    border-top: 1px solid #dadada;
+    height: calc(100% - 12% - 76%);
+    /* background-c b  olor: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 90px;
+}
+
+#credits img{
+    width:75px;
+    filter: grayscale();
+    opacity: .4;
+}
+
+#main{
+    height: 76%;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    /* background-color: red; */
+}
+
+#right{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+#right img{
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(2);
+    position: absolute;
+    object-fit: cover;
+}
+
+#headings{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    /* transform: translate(-50%, -50%); */
+}
+
+#headings h1{
+    font-family: 'monserrate';
+    font-size: 55px;
+}
+
+#line{
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 5px;
+    background-color: black;
+}
+
+#headings p {
+    font-size: 15px;
+    margin-top: 25px;
+} 
+
+#headings button{
+    padding: 6px 30px;
+    margin-top: 25px;
+    color: black;
+    border: 1px solid black ;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
